@@ -20,7 +20,7 @@
     "@octokit/rest": "^22.0.1",
     "@vercel/analytics": "^1.5.0",
     "@vercel/blob": "^2.0.0",
-    "@vercel/functions": "^1.6.0",
+    "@vercel/functions": "^3.3.3",
     "@vercel/speed-insights": "^1.2.0",
     "clsx": "^2.1.1",
     "counterapi": "^2.1.2",
