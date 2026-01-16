@@ -1,0 +1,16 @@
+name = "Project Libra"
+slug = "project-libra"
+short_desc = "Enterprise-grade Security Operations Center (SOC) platform featuring tamper-proof logging and AI integration."
+repo = "https://github.com/DebasishTripathy13/Project-Libra"
+website = "https://projectlibra.cloud"
+primary_lang = "Python"
+license = "MIT"
+
+location_city = "Bangalore"
+location_indian_state = "Karnataka"
+looking_for_contributors = true
+added_at = "2026-01-16"
+category = "security-privacy"
+logo = "/logos/project-libra.svg"
+india_connection = "founder"
+tags = ["security", "ai", "ml", "python"]
