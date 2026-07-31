@@ -40,19 +40,6 @@ GITHUB_TOKEN=ghp_your_personal_access_token
 - Select scope: `public_repo` (read-only)
 - This is **optional** for UI development
 
-**Optional: OAuth Configuration (for GitHub authentication features)**
-
-If you want to test the GitHub Star Button or Quick Submission Form locally:
-
-1. Create a GitHub OAuth App at https://github.com/settings/developers
-2. Add these credentials to your `.env` file:
-   ```bash
-   GITHUB_CLIENT_ID=your_client_id_here
-   GITHUB_CLIENT_SECRET=your_client_secret_here
-   NEXTAUTH_SECRET=your_random_secret_here  # Generate with: openssl rand -base64 32
-   NEXTAUTH_URL=http://localhost:3000
-   ```
-
 ### 4. Run Development Server
 
 ```bash
@@ -92,9 +79,9 @@ fossradar/
 │   └── api/                        # API routes
 ├── components/
 │   ├── ContributorAvatars.tsx      # Display top contributors
-│   ├── InstallationGuide.tsx       # Quick copy install commands
 │   ├── DocumentationLinks.tsx      # Auto-detected docs
 │   ├── SimilarProjects.tsx         # Recommended similar projects
+│   ├── InlineCopy.tsx              # Quick copy install commands
 │   └── ...                         # Other components
 ├── lib/
 │   ├── github.ts                   # Enhanced GitHub API functions
@@ -170,13 +157,7 @@ pm2 startup
 
 ### Option 3: Deploy with Docker
 
-```bash
-# Build Docker image
-docker build -t fossradar .
-
-# Run container
-docker run -p 3000:3000 fossradar
-```
+A Dockerfile is not included in this repository yet. Prefer Vercel or a Node.js host until Docker packaging is added.
 
 ---
 
