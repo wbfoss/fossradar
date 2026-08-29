@@ -186,17 +186,25 @@ export default function SubmitPage() {
                     In the <code className="px-2 py-1 rounded bg-gray-800 text-sm text-orange-400">data/projects/</code> directory, create a new <code className="px-2 py-1 rounded bg-gray-800 text-sm text-orange-400">.toml</code> file named after your project (e.g., <code className="px-2 py-1 rounded bg-gray-800 text-sm text-orange-400">my-project.toml</code>).
                   </p>
                   <div className="p-4 rounded-lg bg-gray-900 text-gray-100 overflow-x-auto border border-gray-800">
-                    <pre className="text-sm"><code>{`name = "Your Project Name"
-slug = "your-project-slug"
-short_desc = "Brief description of your project"
-repo = "https://github.com/your-username/your-project"
-website = "https://your-project.com"
-primary_lang = "JavaScript"
-license = "MIT"
-tags = ["web", "framework", "api"]
-location_city = "Bangalore"
-location_indian_state = "Karnataka"
-looking_for_contributors = false`}</code></pre>
+                    <pre className="text-sm"><code>{`slug = "your-project-slug"
+name = "Your Project Name"
+short_desc = "Your project description"
+repo = "<Link to your project's repository/source code>"
+website = "<Link to your project's website>"
+license = "Your project's license"
+added_at = "2025-12-01"
+primary_lang = "TypeScript"
+category = "Your project's category"
+tags = ["python", "dataviz", "data", "library"]
+looking_for_contributors = true
+
+# Location
+location_city = "City of your project"
+location_indian_state = "State of your project"
+
+# India connection
+india_connection = "organization"
+india_connection_details = "How is your project connected through India? Is it made by Indians, used in India, or made for Indian audience?"`}</code></pre>
                   </div>
                 </div>
               </li>
