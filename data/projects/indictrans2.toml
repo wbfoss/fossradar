@@ -21,6 +21,6 @@ india_connection = "organization"
 india_connection_details = "Developed by AI4Bharat at IIT Madras to enable AI in all Indian languages, covering 22 scheduled languages."
 
 # Auto-updated fields
-stars = 464
+stars = 466
 good_first_issues = 0
 verified = false
