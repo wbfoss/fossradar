@@ -21,6 +21,6 @@ india_connection = "founder"
 india_connection_details = "Provides easy access to Indian mutual fund data from AMFI for portfolio analysis and investment research."
 
 # Auto-updated fields
-stars = 254
+stars = 255
 good_first_issues = 0
 verified = false

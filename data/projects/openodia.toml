@@ -21,6 +21,6 @@ india_connection = "founder"
 india_connection_details = "Python library enabling Odia language computing and NLP for developers working with Odia text."
 
 # Auto-updated fields
-stars = 7
+stars = 8
 good_first_issues = 0
 verified = false
