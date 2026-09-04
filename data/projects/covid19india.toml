@@ -21,6 +21,6 @@ india_connection = "community"
 india_connection_details = "Volunteer-driven crowdsourced project that became India's most trusted COVID-19 tracking platform during the pandemic."
 
 # Auto-updated fields
-stars = 6803
+stars = 6802
 good_first_issues = 1
 verified = false
