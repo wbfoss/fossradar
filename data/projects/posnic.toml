@@ -1,0 +1,27 @@
+# Posnic - Offline-first point-of-sale software
+
+slug = "posnic"
+name = "Posnic"
+short_desc = "Offline-first point-of-sale software for retail and restaurants, with local billing, inventory, reports, and public source."
+repo = "https://github.com/Posnic/POS"
+website = "https://posnic.com/"
+license = "AGPL-3.0-only"
+added_at = "2026-08-21"
+primary_lang = "JavaScript"
+category = "automation-productivity"
+tags = ["javascript", "nodejs", "database", "analytics"]
+looking_for_contributors = true
+
+# Location
+location_city = "Nagapattinam"
+location_indian_state = "Tamil Nadu"
+
+# India connection
+india_connection = "organization"
+india_connection_details = "Maintained by Posnic Innovations Private Limited, an Indian company with a published Tamil Nadu address."
+
+# Auto-updated fields
+stars = 0
+good_first_issues = 1
+verified = false
+logo = "/logos/posnic.png"
