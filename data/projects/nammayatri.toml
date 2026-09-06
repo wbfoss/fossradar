@@ -21,6 +21,6 @@ india_connection = "organization"
 india_connection_details = "India's first open-source ride-hailing platform, initially launched in Bangalore with zero-commission model for drivers."
 
 # Auto-updated fields
-stars = 2535
+stars = 2537
 good_first_issues = 1
 verified = false

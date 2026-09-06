@@ -21,6 +21,6 @@ india_connection = "organization"
 india_connection_details = "Built by Resilient Tech for Indian businesses to handle GST compliance, e-invoicing, and e-waybill generation seamlessly."
 
 # Auto-updated fields
-stars = 264
+stars = 265
 good_first_issues = 0
 verified = false
