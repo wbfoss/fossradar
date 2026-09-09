@@ -1,0 +1,21 @@
+name = "Posnic POS"
+slug = "posnic"
+short_desc = "Offline-first open source POS and billing software for retail shops and restaurants, with desktop and self-hosted server options."
+repo = "https://github.com/Posnic/POS"
+website = "https://posnic.io/"
+primary_lang = "JavaScript"
+license = "AGPL-3.0-only"
+
+location_city = "Thanjavur"
+location_indian_state = "Tamil Nadu"
+looking_for_contributors = true
+
+good_first_issues = 180
+stars = 3
+verified = false
+added_at = "2026-08-21"
+category = "web-applications"
+logo = "/logos/posnic.png"
+india_connection = "organization"
+india_connection_details = "The Posnic GitHub organization publicly identifies its location as Thanjavur, India."
+tags = ["fullstack", "javascript", "nodejs", "database"]
