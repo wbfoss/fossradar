@@ -2,7 +2,7 @@ name = "Posnic POS"
 slug = "posnic"
 short_desc = "Offline-first open source POS and billing software for retail shops and restaurants, with desktop and self-hosted server options."
 repo = "https://github.com/Posnic/POS"
-website = "https://posnic.io/"
+website = "https://www.posnic.com/"
 primary_lang = "JavaScript"
 license = "AGPL-3.0-only"
 
