@@ -5,7 +5,7 @@
       "login": "soodoku",
       "avatar_url": "https://avatars.githubusercontent.com/u/721466?v=4",
       "html_url": "https://github.com/soodoku",
-      "contributions": 174
+      "contributions": 176
     },
     {
       "login": "dhingratul",
@@ -38,20 +38,20 @@
     "forks": 1,
     "watchers": 5,
     "open_issues": 0,
-    "size": 211804,
+    "size": 233374,
     "created_at": "2022-10-06T15:47:24Z",
-    "updated_at": "2026-09-09T18:09:51Z",
-    "pushed_at": "2026-09-09T18:13:48Z",
+    "updated_at": "2026-09-11T02:02:21Z",
+    "pushed_at": "2026-09-11T02:02:18Z",
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false
   },
   "languages": {
     "Jupyter Notebook": 9224223,
-    "Python": 219033,
+    "Python": 263819,
     "TeX": 57613,
     "R": 3892,
     "Makefile": 1482
   },
-  "updated_at": "2026-09-10T07:14:28.355Z"
+  "updated_at": "2026-09-11T07:13:37.194Z"
 }
