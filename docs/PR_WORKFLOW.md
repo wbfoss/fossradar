@@ -2,20 +2,18 @@
 
 ## Overview
 
-FOSSRadar.dev.in offers **two submission methods** for project owners:
+FOSSRadar.dev uses a **Git-based pull request workflow** for project submissions.
 
-1. **Quick Submission Form**: An interactive 5-step form that automatically creates pull requests (recommended for most users)
-2. **Manual PR Workflow**: Traditional Git workflow for developers who prefer direct control
-
-Both methods result in a GitHub Pull Request with automatic verification.
+1. Follow the checklist on [fossradar.dev/submit](https://fossradar.dev/submit)
+2. Open a pull request with your project TOML (and optional logo)
+3. CI validates the submission and checks your affiliation with the project
 
 ## Key Features
 
-### 🚀 Two Submission Options
-- **Quick Form**: Guided submission with auto-fill and validation
-- **Manual PR**: Traditional Git workflow with full control
-- Both create GitHub PRs for community review
-- Full Git history and transparency
+### 🚀 Git-Based Submissions
+- Full control via fork → branch → PR
+- Transparent Git history for every listing
+- Community review before merge
 
 ### ✅ Auto-Verification
 When you submit a project via PR, our CI **automatically checks** if you're affiliated with the project repository:
@@ -31,36 +29,7 @@ If **any** of the above is true → **Verified ✓**
 
 ## How It Works
 
-### Method 1: Quick Submission Form (Recommended)
-
-#### Overview
-Visit [fossradar.dev/submit/form](https://fossradar.dev/submit/form) for a guided submission experience.
-
-#### Features
-- ✨ Auto-fetch project details from GitHub
-- ✅ Real-time validation with helpful guidance
-- 🔍 Duplicate detection prevents resubmissions
-- 🏷️ Smart tag suggestions from GitHub topics
-- 🖼️ Optional logo upload (drag & drop)
-- 📝 TOML preview before submission
-- 🤖 Automatic PR creation
-
-#### Steps
-1. Visit [fossradar.dev/submit/form](https://fossradar.dev/submit/form)
-2. Enter your GitHub repository URL and validate
-3. Fill in the 5-step guided form (most fields auto-filled)
-4. Review the generated TOML file
-5. Sign in with GitHub
-6. Submit - we create the PR automatically!
-
-**Note**: Requires GitHub authentication to create pull requests on your behalf. The form uses GitHub OAuth to authenticate and create the PR using your GitHub account.
-
-#### Auto-Verification
-After form submission, the PR undergoes the same auto-verification process as manual PRs (see below).
-
----
-
-### Method 2: Manual PR Workflow (Traditional)
+### Manual PR Workflow
 
 #### For Project Owners
 
@@ -387,23 +356,20 @@ For typical PRs (1-2 projects), we're well within limits.
 
 ## Summary
 
-FOSSRadar.dev offers two submission methods with auto-verification:
+FOSSRadar.dev uses a Git-based submission workflow with auto-verification:
 
-**Quick Submission Form:**
-- ✅ Guided 5-step process with auto-fill
-- ✅ Real-time validation and duplicate detection
-- ✅ Smart tag suggestions from GitHub topics
-- ✅ Automatic PR creation via GitHub OAuth
-- ✅ Perfect for quick, single-project submissions
+**Submission guide:** [fossradar.dev/submit](https://fossradar.dev/submit)
+- ✅ Clear eligibility and field checklist
+- ✅ TOML example and validation steps
+- ✅ Links to fork the repository and open a PR
 
-**Manual PR Workflow:**
+**Manual PR workflow:**
 - ✅ Full Git control for developers
 - ✅ Batch multiple project submissions
 - ✅ Traditional workflow for Git users
-- ✅ No OAuth required
 
-**Both methods:**
-- ✅ Create GitHub Pull Requests for community review
-- ✅ Automatically verify project ownership
-- ✅ Maintain full transparency
-- ✅ Scalable and secure
+**Every submission:**
+- ✅ Creates a GitHub Pull Request for community review
+- ✅ Automatically verifies project affiliation
+- ✅ Maintains full transparency
+- ✅ Scales without a separate write API

@@ -1,53 +1,32 @@
-# Vercel Production Setup Guide
+﻿# Vercel Production Setup Guide
 
-This document outlines the required environment variables and configuration for deploying FOSSRadar.dev to Vercel.
+This document outlines the environment variables and configuration for deploying FOSSRadar.dev to Vercel.
 
-## Required Environment Variables
+## Environment Variables
 
-### 1. GitHub OAuth (Required for Authentication Features)
+See [`.env.example`](./.env.example) for the full template. Most variables are optional for a basic deploy.
 
-These are **required** for the GitHub Star button and Quick Submission Form to work.
-
-```env
-GITHUB_CLIENT_ID=your_github_oauth_client_id
-GITHUB_CLIENT_SECRET=your_github_oauth_client_secret
-```
-
-**How to get these:**
-1. Go to https://github.com/settings/developers
-2. Click "New OAuth App"
-3. Fill in:
-   - Application name: `FOSSRadar.dev Production`
-   - Homepage URL: `https://fossradar.dev`
-   - Authorization callback URL: `https://fossradar.dev/api/auth/callback/github`
-4. Click "Register application"
-5. Copy the Client ID and generate a Client Secret
-
-**⚠️ CRITICAL:** Without these, the `/api/auth/[...nextauth]` endpoint will error with 8% function errors.
-
-### 2. NextAuth Configuration (Required)
+### 1. Site URL (Recommended)
 
 ```env
-NEXTAUTH_SECRET=your_random_secret_here
-NEXTAUTH_URL=https://fossradar.dev
+SITE_URL=https://fossradar.dev
 ```
 
-**Generate NEXTAUTH_SECRET:**
-```bash
-openssl rand -base64 32
-```
+Used for sitemaps and absolute URLs.
 
-### 3. GitHub API (Optional - for enrichment script)
+### 2. GitHub API (Optional on Vercel)
 
 ```env
 GITHUB_TOKEN=your_github_personal_access_token
 ```
 
-**Note:** This is **NOT required** on Vercel because:
+**Note:** This is **NOT required** on Vercel for enrichment because:
 - The enrichment script runs via GitHub Actions, not on Vercel
 - GitHub Actions provides `GITHUB_TOKEN` automatically
 
-### 4. Admin API Key (Optional - for sitemap ping)
+Only needed for local testing of validation/enrichment scripts.
+
+### 3. Admin API Key (Optional - for sitemap ping)
 
 ```env
 ADMIN_API_KEY=your_random_admin_key
@@ -60,84 +39,80 @@ openssl rand -base64 32
 
 This secures the `/api/ping-sitemap` endpoint.
 
+### 4. Optional Integrations
+
+Additional optional keys (CounterAPI, Vercel Blob, etc.) are documented in [`.env.example`](./.env.example).
+
 ## Vercel Configuration Steps
 
-### Step 1: Add Environment Variables
+### Step 1: Import and Deploy
+
+1. Go to [vercel.com/new](https://vercel.com/new)
+2. Import `wbfoss/fossradar` (or your fork)
+3. Framework Preset: **Next.js**
+4. Build Command: `pnpm build`
+5. Node.js Version: **20.x** or higher
+
+### Step 2: Add Environment Variables
 
 1. Go to your Vercel project dashboard
 2. Navigate to **Settings → Environment Variables**
-3. Add the following variables:
+3. Add at least:
 
 | Variable | Value | Environment |
 |----------|-------|-------------|
-| `GITHUB_CLIENT_ID` | From GitHub OAuth App | Production |
-| `GITHUB_CLIENT_SECRET` | From GitHub OAuth App | Production |
-| `NEXTAUTH_SECRET` | Generate with openssl | Production |
-| `NEXTAUTH_URL` | `https://fossradar.dev` | Production |
+| `SITE_URL` | `https://fossradar.dev` | Production |
 | `ADMIN_API_KEY` | Generate with openssl (optional) | Production |
 
-### Step 2: Redeploy
+### Step 3: Redeploy
 
 After adding environment variables:
 1. Go to **Deployments** tab
-2. Click on the latest deployment
-3. Click **"Redeploy"** button
-4. OR push a new commit to trigger deployment
+2. Redeploy the latest deployment, or push a new commit
 
-### Step 3: Verify
+### Step 4: Verify
 
 1. Visit `https://fossradar.dev`
-2. Try the GitHub Star button on any project page
-3. Check Vercel logs for any errors in `/api/auth/[...nextauth]`
+2. Confirm the homepage loads and search works
+3. Open a project detail page and check logos/links
 
 ## Common Issues
 
-### Issue: 8% Function Errors on `/api/auth/[...nextauth]`
+### Issue: Build fails on Vercel
 
-**Cause:** Missing GitHub OAuth credentials
-
-**Solution:**
-1. Verify `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` are set in Vercel
-2. Verify the OAuth callback URL in GitHub matches: `https://fossradar.dev/api/auth/callback/github`
-3. Redeploy after adding variables
-
-### Issue: "Configuration" errors in NextAuth
-
-**Cause:** Missing or invalid `NEXTAUTH_SECRET`
+**Cause:** Wrong package manager or Node version
 
 **Solution:**
-1. Generate a new secret: `openssl rand -base64 32`
-2. Add to Vercel environment variables
-3. Redeploy
+1. Ensure the project uses **pnpm** (`pnpm-lock.yaml`)
+2. Set Node.js to **20.x** or higher
+3. Use build command `pnpm build`
 
-### Issue: Authentication redirects fail
+### Issue: Sitemap or absolute URLs look wrong
 
-**Cause:** Incorrect `NEXTAUTH_URL`
+**Cause:** Missing or incorrect `SITE_URL`
 
 **Solution:**
-1. Set `NEXTAUTH_URL=https://fossradar.dev` (no trailing slash)
+1. Set `SITE_URL=https://fossradar.dev` (no trailing slash)
 2. Redeploy
 
-## Monitoring
+### Issue: `/api/ping-sitemap` returns unauthorized
 
-Monitor function errors in Vercel:
-1. Go to **Analytics** tab
-2. Check **Functions** section
-3. Look for errors in `/api/auth/[...nextauth]`
+**Cause:** Missing or incorrect `ADMIN_API_KEY`
 
-Expected error rate after proper configuration: **0%**
+**Solution:**
+1. Generate a key: `openssl rand -base64 32`
+2. Add it to Vercel environment variables
+3. Redeploy and call the endpoint with the key
 
 ## Security Notes
 
-1. **Never commit** OAuth credentials or secrets to git
+1. **Never commit** secrets to git
 2. Rotate secrets periodically
-3. Use separate OAuth apps for development and production
-4. Keep `ADMIN_API_KEY` secure and unique
+3. Keep `ADMIN_API_KEY` secure and unique
 
 ## Support
 
 If errors persist after configuration:
-1. Check Vercel function logs
-2. Verify all environment variables are set correctly
-3. Ensure GitHub OAuth callback URL matches production URL
-4. Try redeploying with fresh environment variables
+1. Check Vercel function and build logs
+2. Verify environment variables match [`.env.example`](./.env.example)
+3. Confirm the deployment used `pnpm build`

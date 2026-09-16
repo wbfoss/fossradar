@@ -51,16 +51,16 @@ Include:
 
 ### Data Protection
 
-- **No User Data Storage**: We do not store user data beyond OAuth sessions
+- **No User Accounts Required**: Submissions happen via GitHub pull requests
 - **No Database**: All data is in Git, version-controlled and auditable
 - **Environment Variables**: Secrets managed via environment variables (never committed)
 
 ### Authentication & Authorization
 
-- **GitHub OAuth**: Secure authentication via Auth.js (NextAuth)
-- **API Protection**: All write operations require authentication
-- **CSRF Protection**: Built into Auth.js
-- **Rate Limiting**: Implemented at middleware level
+- **Git-based submissions**: Project listings are added via pull requests, not end-user OAuth sessions
+- **API Protection**: Admin endpoints (for example sitemap ping) require configured secrets
+- **No public write API**: Directory data changes go through Git and CI validation
+- **Rate Limiting**: Applied where supported by the hosting platform
 
 ### Input Validation
 
