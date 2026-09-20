@@ -21,6 +21,6 @@ india_connection = "founder"
 india_connection_details = "Python wrapper for BSE India data, complementing NSE libraries for complete Indian market coverage."
 
 # Auto-updated fields
-stars = 115
+stars = 116
 good_first_issues = 0
 verified = false
