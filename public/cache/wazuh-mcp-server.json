@@ -32,12 +32,6 @@
       "contributions": 5
     },
     {
-      "login": "mouse-value-add",
-      "avatar_url": "https://avatars.githubusercontent.com/u/263469348?v=4",
-      "html_url": "https://github.com/mouse-value-add",
-      "contributions": 3
-    },
-    {
       "login": "github-actions[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
       "html_url": "https://github.com/apps/github-actions",
@@ -60,6 +54,12 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/50850703?v=4",
       "html_url": "https://github.com/Karibusan",
       "contributions": 1
+    },
+    {
+      "login": "lwsinclair",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2829939?v=4",
+      "html_url": "https://github.com/lwsinclair",
+      "contributions": 1
     }
   ],
   "installation": {
@@ -71,13 +71,13 @@
     "changelog_url": "https://github.com/gensecaihq/Wazuh-MCP-Server/blob/main/CHANGELOG.md"
   },
   "stats": {
-    "forks": 65,
+    "forks": 64,
     "watchers": 12,
     "open_issues": 4,
     "size": 3184,
     "created_at": "2025-03-13T07:18:47Z",
-    "updated_at": "2026-09-30T06:57:57Z",
-    "pushed_at": "2026-09-30T06:57:56Z",
+    "updated_at": "2026-10-02T13:53:19Z",
+    "pushed_at": "2026-10-02T15:24:07Z",
     "has_wiki": false,
     "has_pages": false,
     "has_discussions": false
@@ -88,5 +88,5 @@
     "Dockerfile": 5168,
     "Batchfile": 735
   },
-  "updated_at": "2026-10-02T08:21:45.355Z"
+  "updated_at": "2026-10-03T07:58:00.417Z"
 }
