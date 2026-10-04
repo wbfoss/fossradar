@@ -17,7 +17,7 @@
       "login": "witcher-shailesh",
       "avatar_url": "https://avatars.githubusercontent.com/u/62455315?v=4",
       "html_url": "https://github.com/witcher-shailesh",
-      "contributions": 470
+      "contributions": 471
     },
     {
       "login": "0utkarsh",
@@ -70,23 +70,23 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 400,
+    "forks": 401,
     "watchers": 15,
-    "open_issues": 1405,
-    "size": 921856,
+    "open_issues": 1403,
+    "size": 921981,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-10-02T14:51:41Z",
-    "pushed_at": "2026-10-03T07:03:55Z",
+    "updated_at": "2026-10-03T08:50:04Z",
+    "pushed_at": "2026-10-04T07:16:01Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 25413633,
+    "Haskell": 25423067,
     "Python": 943868,
     "TypeScript": 578097,
     "Dhall": 347807,
-    "Shell": 203143,
+    "Shell": 203125,
     "Nix": 202967,
     "HTML": 143463,
     "CSS": 139547,
@@ -95,5 +95,5 @@
     "Dockerfile": 2240,
     "Go Template": 185
   },
-  "updated_at": "2026-10-03T07:56:30.571Z"
+  "updated_at": "2026-10-04T08:18:39.963Z"
 }
