@@ -21,6 +21,6 @@ india_connection = "community"
 india_connection_details = "Community-driven effort to translate official React documentation to Hindi for Indian developers."
 
 # Auto-updated fields
-stars = 126
+stars = 125
 good_first_issues = 0
 verified = false

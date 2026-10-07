@@ -21,6 +21,6 @@ india_connection = "organization"
 india_connection_details = "Built by Tattle, an Indian civic tech organization focused on misinformation and online safety research."
 
 # Auto-updated fields
-stars = 56
+stars = 57
 good_first_issues = 0
 verified = false
