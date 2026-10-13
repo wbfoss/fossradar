@@ -11,7 +11,7 @@
       "login": "hkmangla",
       "avatar_url": "https://avatars.githubusercontent.com/u/15854798?v=4",
       "html_url": "https://github.com/hkmangla",
-      "contributions": 728
+      "contributions": 730
     },
     {
       "login": "witcher-shailesh",
@@ -70,30 +70,30 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 401,
+    "forks": 402,
     "watchers": 15,
-    "open_issues": 1393,
-    "size": 924256,
+    "open_issues": 1399,
+    "size": 924939,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-10-12T08:56:08Z",
-    "pushed_at": "2026-10-12T08:57:16Z",
+    "updated_at": "2026-10-13T09:09:41Z",
+    "pushed_at": "2026-10-13T09:14:21Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 24020224,
-    "Python": 1012003,
+    "Haskell": 24116007,
+    "Python": 1035431,
     "TypeScript": 617113,
-    "Dhall": 276396,
+    "Dhall": 276647,
     "Shell": 200443,
     "Nix": 198755,
     "CSS": 143554,
     "HTML": 143463,
-    "PLpgSQL": 107146,
+    "PLpgSQL": 115301,
     "JavaScript": 17977,
     "Dockerfile": 3061,
     "Go Template": 185
   },
-  "updated_at": "2026-10-12T09:01:17.351Z"
+  "updated_at": "2026-10-13T09:15:58.922Z"
 }
