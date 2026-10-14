@@ -1,0 +1,25 @@
+slug = "whats4linux"
+name = "Whats4Linux"
+short_desc = "WhatsApp client for desktop Linux and other platforms. Simple to use, very reliable, and power-user respecting. Better-than-usual feature parity to the official client."
+repo = "https://github.com/lugvitc/whats4linux"
+website = "https://github.com/lugvitc/whats4linux"
+license = "AGPL-3.0-only"
+added_at = "2026-08-29"
+primary_lang = "Go"
+category = "social-media"
+tags = ["client", "social", "fullstack"]
+looking_for_contributors = true
+
+# Location
+location_city = "Chennai"
+location_indian_state = "Tamil Nadu"
+
+# India connection
+india_connection = "organization"
+india_connection_details = "Made by the Linux User Group of VIT Chennai, a student-run FOSS club"
+
+# Auto-updated fields
+stars = 0
+good_first_issues = 1
+verified = false
+logo = "/logos/whats4linux.png"

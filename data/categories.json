@@ -80,6 +80,11 @@
       "description": "Operating system utilities, system tools, file management",
       "icon": "settings"
     },
+    "social-media": {
+      "label": "Social Media",
+      "description": "Social media servers, clients, bridges, APIs and their wrappers, implementations, bouncers",
+      "icon": "messages-square"
+    },
     "other": {
       "label": "Other",
       "description": "Projects that don't fit into other categories",
