@@ -21,6 +21,6 @@ india_connection = "founder"
 india_connection_details = "Provides salary transparency for Indian tech professionals by aggregating LeetCode compensation data."
 
 # Auto-updated fields
-stars = 414
+stars = 415
 good_first_issues = 0
 verified = false
