@@ -10,26 +10,7 @@ This project adheres to the [Contributor Covenant Code of Conduct](./CODE_OF_CON
 
 ### 1. Add Your Project
 
-There are **two ways** to add your open source project to FOSSRadar.dev:
-
-#### Method 1: Quick Submission Form (Easiest)
-
-Visit [fossradar.dev/submit/form](https://fossradar.dev/submit/form) for a guided submission with:
-- Auto-fetch project details from GitHub
-- Real-time validation and duplicate detection
-- Smart tag suggestions from your GitHub topics
-- Optional logo upload
-- Automatic pull request creation
-
-**Prerequisites:**
-- Your project must be open source with an OSI-approved license
-- Repository must be publicly accessible on GitHub
-- GitHub authentication (required for automatic PR creation)
-- Project has a connection to India (founders, organization, community, or contributors)
-
-#### Method 2: Manual Git Workflow (Traditional)
-
-For developers who prefer the traditional Git workflow:
+Projects are added via a Git-based pull request. Start with the guided checklist on [fossradar.dev/submit](https://fossradar.dev/submit).
 
 **Prerequisites:**
 - Your project must be open source with an OSI-approved license
@@ -47,7 +28,7 @@ For developers who prefer the traditional Git workflow:
 
 Our CI will automatically validate your submission and verify your affiliation with the project.
 
-See the [README](./README.md#-for-project-owners-get-listed) for detailed submission instructions.
+See the [README](./README.md) and [PR Workflow](./docs/PR_WORKFLOW.md) for detailed submission instructions.
 
 ### 2. Improve Documentation
 
