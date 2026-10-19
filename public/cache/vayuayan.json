@@ -5,7 +5,7 @@
       "login": "saketkc",
       "avatar_url": "https://avatars.githubusercontent.com/u/682153?v=4",
       "html_url": "https://github.com/saketkc",
-      "contributions": 69
+      "contributions": 74
     },
     {
       "login": "kumar-09",
@@ -21,27 +21,30 @@
     }
   ],
   "installation": {
-    "type": "pip",
-    "command": "pip install vayuayan"
+    "type": "git",
+    "command": "git clone https://github.com/saketlab/vayuayan"
   },
-  "documentation": {
-    "docs_url": "https://github.com/saketlab/vayuayan/tree/main/docs"
-  },
+  "documentation": {},
   "stats": {
     "forks": 1,
     "watchers": 1,
     "open_issues": 0,
-    "size": 5324,
+    "size": 7888,
     "created_at": "2025-06-01T12:39:27Z",
-    "updated_at": "2026-10-17T19:10:54Z",
-    "pushed_at": "2026-10-17T19:09:29Z",
+    "updated_at": "2026-10-18T17:42:16Z",
+    "pushed_at": "2026-10-18T17:42:12Z",
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false
   },
   "languages": {
-    "Python": 194925,
-    "Makefile": 1636
+    "Jupyter Notebook": 965392,
+    "Python": 237808,
+    "R": 137890,
+    "CSS": 20926,
+    "HTML": 2601,
+    "Makefile": 2467,
+    "Batchfile": 800
   },
-  "updated_at": "2026-10-18T07:11:06.760Z"
+  "updated_at": "2026-10-19T07:39:16.178Z"
 }

@@ -20,6 +20,12 @@
       "contributions": 7
     },
     {
+      "login": "alenpaulvarghese",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38587581?v=4",
+      "html_url": "https://github.com/alenpaulvarghese",
+      "contributions": 1
+    },
+    {
       "login": "anoopmsivadas",
       "avatar_url": "https://avatars.githubusercontent.com/u/46913894?v=4",
       "html_url": "https://github.com/anoopmsivadas",
@@ -34,20 +40,20 @@
   "stats": {
     "forks": 13,
     "watchers": 4,
-    "open_issues": 33,
-    "size": 384,
+    "open_issues": 34,
+    "size": 387,
     "created_at": "2021-08-17T18:21:04Z",
-    "updated_at": "2026-10-06T17:56:29Z",
-    "pushed_at": "2025-09-07T11:29:01Z",
+    "updated_at": "2026-10-18T09:16:02Z",
+    "pushed_at": "2026-10-18T09:15:57Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
     "Go": 173819,
-    "C": 9763,
+    "C": 10084,
     "Shell": 6596,
     "Makefile": 3449
   },
-  "updated_at": "2026-10-18T07:09:05.547Z"
+  "updated_at": "2026-10-19T07:36:43.435Z"
 }
