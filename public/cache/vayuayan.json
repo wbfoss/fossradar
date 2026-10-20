@@ -5,7 +5,7 @@
       "login": "saketkc",
       "avatar_url": "https://avatars.githubusercontent.com/u/682153?v=4",
       "html_url": "https://github.com/saketkc",
-      "contributions": 74
+      "contributions": 82
     },
     {
       "login": "kumar-09",
@@ -29,22 +29,22 @@
     "forks": 1,
     "watchers": 1,
     "open_issues": 0,
-    "size": 7888,
+    "size": 14141,
     "created_at": "2025-06-01T12:39:27Z",
-    "updated_at": "2026-10-18T17:42:16Z",
-    "pushed_at": "2026-10-18T17:42:12Z",
+    "updated_at": "2026-10-20T06:14:50Z",
+    "pushed_at": "2026-10-20T06:14:46Z",
     "has_wiki": true,
     "has_pages": true,
     "has_discussions": false
   },
   "languages": {
-    "Jupyter Notebook": 965392,
-    "Python": 237808,
-    "R": 137890,
+    "Jupyter Notebook": 7225603,
+    "Python": 390336,
+    "R": 239642,
     "CSS": 20926,
     "HTML": 2601,
     "Makefile": 2467,
     "Batchfile": 800
   },
-  "updated_at": "2026-10-19T07:39:16.178Z"
+  "updated_at": "2026-10-20T07:26:53.485Z"
 }
