@@ -21,6 +21,6 @@ india_connection = "founder"
 india_connection_details = "Created by Indian security researchers to provide India-specific wordlists for authorized security testing and research."
 
 # Auto-updated fields
-stars = 227
+stars = 228
 good_first_issues = 0
 verified = false
