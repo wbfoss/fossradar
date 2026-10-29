@@ -21,6 +21,6 @@ india_connection = "founder"
 india_connection_details = "Built specifically for Indian investors to track and manage their investment portfolios across multiple asset classes."
 
 # Auto-updated fields
-stars = 90
+stars = 91
 good_first_issues = 0
 verified = false
