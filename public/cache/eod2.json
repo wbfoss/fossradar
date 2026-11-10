@@ -5,7 +5,7 @@
       "login": "BennyThadikaran",
       "avatar_url": "https://avatars.githubusercontent.com/u/19973418?v=4",
       "html_url": "https://github.com/BennyThadikaran",
-      "contributions": 814
+      "contributions": 823
     },
     {
       "login": "ArunTS96",
@@ -15,24 +15,24 @@
     }
   ],
   "installation": {
-    "type": "git",
-    "command": "git clone https://github.com/BennyThadikaran/eod2"
+    "type": "pip",
+    "command": "pip install eod2"
   },
   "documentation": {},
   "stats": {
     "forks": 54,
     "watchers": 8,
-    "open_issues": 7,
-    "size": 274687,
+    "open_issues": 5,
+    "size": 274701,
     "created_at": "2022-08-27T14:18:55Z",
-    "updated_at": "2026-11-03T08:42:59Z",
-    "pushed_at": "2026-10-23T17:26:27Z",
+    "updated_at": "2026-11-09T14:11:35Z",
+    "pushed_at": "2026-11-09T14:11:29Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Python": 305976
+    "Python": 306159
   },
-  "updated_at": "2026-11-09T09:33:56.359Z"
+  "updated_at": "2026-11-10T09:34:58.689Z"
 }
