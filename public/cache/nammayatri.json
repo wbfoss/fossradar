@@ -70,24 +70,24 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 407,
+    "forks": 408,
     "watchers": 15,
-    "open_issues": 1404,
-    "size": 933293,
+    "open_issues": 1409,
+    "size": 934984,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-11-12T09:10:15Z",
-    "pushed_at": "2026-11-12T09:31:01Z",
+    "updated_at": "2026-11-12T15:43:00Z",
+    "pushed_at": "2026-11-13T09:19:59Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 26919951,
-    "Python": 1115942,
+    "Haskell": 26964090,
+    "Python": 1126355,
     "TypeScript": 648361,
-    "Dhall": 282237,
-    "Shell": 215242,
-    "Nix": 204694,
+    "Dhall": 282623,
+    "Shell": 215351,
+    "Nix": 204710,
     "CSS": 144665,
     "HTML": 143463,
     "PLpgSQL": 117121,
@@ -95,5 +95,5 @@
     "Dockerfile": 3061,
     "Go Template": 185
   },
-  "updated_at": "2026-11-12T09:39:13.304Z"
+  "updated_at": "2026-11-13T09:24:21.940Z"
 }
