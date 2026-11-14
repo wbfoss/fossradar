@@ -88,16 +88,11 @@ Or manually:
 
 **3. Configure Environment Variables** (Optional for enhanced features)
 
-Add these in Vercel dashboard → Settings → Environment Variables:
+Add these in Vercel dashboard → Settings → Environment Variables. See [`.env.example`](./.env.example) for the full list:
 
 ```bash
-# GitHub OAuth (required for submission form & star button)
-GITHUB_CLIENT_ID=your_github_oauth_client_id
-GITHUB_CLIENT_SECRET=your_github_oauth_client_secret
-
-# NextAuth (required for authentication)
-NEXTAUTH_SECRET=your_random_secret_here  # Generate: openssl rand -base64 32
-NEXTAUTH_URL=https://yourdomain.com
+# Site URL (for sitemaps)
+SITE_URL=https://yourdomain.com
 
 # GitHub Token (automatically provided in CI - no setup needed!)
 # Only needed for local testing of validation/enrichment
@@ -173,18 +168,9 @@ pnpm lint             # Run ESLint
 
 ## 📝 Adding Entries to Your Directory
 
-### Method 1: Submission Form (Recommended)
+### Submission Workflow
 
-Visit `/submit/form` on your deployed site for a guided submission experience.
-
-**Features:**
-- Auto-fetch project details from GitHub
-- Real-time validation
-- Drag-and-drop logo upload
-- TOML preview
-- Automatic PR creation (requires GitHub OAuth)
-
-### Method 2: Manual Git Workflow
+Visit `/submit` on your deployed site for a step-by-step submission checklist, then open a pull request with your project TOML.
 
 **Step 1: Create TOML file**
 
@@ -276,9 +262,8 @@ Tags provide fine-grained filtering within categories (1-10 tags per entry).
 
 **Enable/Disable Features**:
 - Geographic radar (`app/radar/`)
-- GitHub OAuth (`lib/auth.ts`)
 - Auto-enrichment (`.github/workflows/enrich.yml`)
-- Submission form (`app/submit/form/`)
+- Submission guide (`app/submit/`)
 
 ---
 
@@ -304,7 +289,7 @@ radar/
 │   ├── about/                 # About page
 │   ├── radar/                 # Geographic visualization
 │   ├── projects/[slug]/       # Individual project pages
-│   ├── submit/form/           # Submission form
+│   ├── submit/                # Submission guide
 │   └── api/                   # API routes
 ├── components/                # React components
 ├── data/
@@ -326,28 +311,6 @@ radar/
 3. **Runtime**: Static pages generated, search runs client-side
 4. **Auto-Update**: GitHub Actions enriches data nightly (stars, contributors)
 5. **SEO**: Sitemap auto-generated, search engines auto-pinged
-
----
-
-## 🔒 GitHub OAuth Setup (Optional)
-
-Required for:
-- **GitHub Star Button** - One-click repository starring
-- **Submission Form** - Automatic PR creation
-
-**Steps:**
-
-1. Create GitHub OAuth App at https://github.com/settings/developers
-   - Homepage URL: `https://yourdomain.com`
-   - Callback URL: `https://yourdomain.com/api/auth/callback/github`
-
-2. Add credentials to environment variables:
-   ```bash
-   GITHUB_CLIENT_ID=your_client_id
-   GITHUB_CLIENT_SECRET=your_client_secret
-   NEXTAUTH_SECRET=random_secret  # openssl rand -base64 32
-   NEXTAUTH_URL=https://yourdomain.com
-   ```
 
 ---
 
