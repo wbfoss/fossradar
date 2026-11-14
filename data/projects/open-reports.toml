@@ -1,0 +1,17 @@
+slug = "open-reports"
+name = "Open Reports"
+short_desc = "Self-hosted JSON report designer and rendering engine with PDF, spreadsheet, label and receipt output, plus REST and JavaScript integration."
+website = "https://open-reports-demo.onrender.com/"
+repo = "https://github.com/varaprasadreddy9676/open-reports"
+license = "MIT"
+added_at = "2026-10-11"
+
+primary_lang = "TypeScript"
+category = "developer-tools"
+tags = ["devtools", "web", "typescript", "api", "nodejs"]
+looking_for_contributors = true
+location_city = "Bengaluru"
+location_indian_state = "Karnataka"
+
+india_connection = "founder"
+india_connection_details = "Maintained by the project's India-based founder."
