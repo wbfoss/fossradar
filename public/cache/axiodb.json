@@ -5,7 +5,7 @@
       "login": "AnkanSaha",
       "avatar_url": "https://avatars.githubusercontent.com/u/93839804?v=4",
       "html_url": "https://github.com/AnkanSaha",
-      "contributions": 1690
+      "contributions": 1710
     },
     {
       "login": "deepsource-autofix[bot]",
@@ -41,23 +41,23 @@
     "forks": 7,
     "watchers": 1,
     "open_issues": 0,
-    "size": 8826,
+    "size": 7663,
     "created_at": "2024-09-30T18:50:58Z",
-    "updated_at": "2026-11-12T14:08:06Z",
-    "pushed_at": "2026-11-16T09:11:51Z",
+    "updated_at": "2026-11-17T06:55:10Z",
+    "pushed_at": "2026-11-16T13:40:04Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "TypeScript": 1684644,
-    "JavaScript": 1303797,
-    "Go": 126458,
-    "Shell": 53248,
-    "HTML": 21829,
+    "TypeScript": 1686743,
+    "JavaScript": 1303806,
+    "Go": 126459,
+    "Shell": 47127,
+    "HTML": 21780,
     "CSS": 16754,
-    "PowerShell": 14148,
+    "PowerShell": 14120,
     "Dockerfile": 2153
   },
-  "updated_at": "2026-11-16T09:21:58.452Z"
+  "updated_at": "2026-11-17T10:28:48.823Z"
 }
