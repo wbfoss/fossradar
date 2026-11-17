@@ -1,0 +1,20 @@
+# MirrorFly - In-app Chat, Voice & Video Platform
+
+slug = "mirrorfly"
+name = "MirrorFly"
+short_desc = "MirrorFly is the #1 self-hosted CPaaS provider to integrate AI agent, chat, video, contact center, VoIP, & Chatbot SDKs into any web & app in just 24 hours."
+repo = "https://github.com/MirrorFly"
+website = "https://www.mirrorfly.com/"
+added_at = "2026-09-30"
+primary_lang = "react"
+category = "libraries-frameworks"
+tags = ["sdk", "chat", "video", "api", "mobile"]
+looking_for_contributors = false
+
+# Location
+location_city = "Chennai"
+location_indian_state = "Tamil Nadu"
+
+# India connection
+india_connection = "organization"
+india_connection_details = "Built and maintained by Contus Tech Private Limited, headquartered in Chennai, Tamil Nadu. MirrorFly provides chat, voice and video SDKs for Android, iOS and web, used by 500+ brands across 70+ countries."
