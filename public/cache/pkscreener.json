@@ -34,9 +34,9 @@
     "docs_url": "https://github.com/pkjmesra/PKScreener/tree/main/docs"
   },
   "stats": {
-    "forks": 193,
+    "forks": 194,
     "watchers": 18,
-    "open_issues": 41,
+    "open_issues": 42,
     "size": 19395640,
     "created_at": "2023-07-08T07:32:10Z",
     "updated_at": "2026-11-10T06:53:31Z",
@@ -52,5 +52,5 @@
     "JavaScript": 2386,
     "Shell": 576
   },
-  "updated_at": "2026-11-18T10:00:54.584Z"
+  "updated_at": "2026-11-19T10:08:36.104Z"
 }
