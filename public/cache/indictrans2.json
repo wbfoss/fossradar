@@ -50,7 +50,7 @@
   },
   "documentation": {},
   "stats": {
-    "forks": 138,
+    "forks": 139,
     "watchers": 17,
     "open_issues": 18,
     "size": 4276,
@@ -68,5 +68,5 @@
     "Perl": 3824,
     "Dockerfile": 626
   },
-  "updated_at": "2026-11-20T09:55:40.169Z"
+  "updated_at": "2026-11-21T09:31:56.601Z"
 }
