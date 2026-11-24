@@ -11,7 +11,7 @@
       "login": "ljain112",
       "avatar_url": "https://avatars.githubusercontent.com/u/108322669?v=4",
       "html_url": "https://github.com/ljain112",
-      "contributions": 1003
+      "contributions": 1024
     },
     {
       "login": "sagarvora",
@@ -47,7 +47,7 @@
       "login": "mergify[bot]",
       "avatar_url": "https://avatars.githubusercontent.com/in/10562?v=4",
       "html_url": "https://github.com/apps/mergify",
-      "contributions": 164
+      "contributions": 165
     },
     {
       "login": "pruthvi145",
@@ -68,24 +68,24 @@
   },
   "documentation": {},
   "stats": {
-    "forks": 304,
+    "forks": 305,
     "watchers": 10,
-    "open_issues": 156,
-    "size": 16409,
+    "open_issues": 167,
+    "size": 16512,
     "created_at": "2021-12-27T15:30:35Z",
-    "updated_at": "2026-11-11T18:18:18Z",
-    "pushed_at": "2026-11-20T12:18:04Z",
+    "updated_at": "2026-11-23T15:26:05Z",
+    "pushed_at": "2026-11-24T12:18:42Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": false
   },
   "languages": {
-    "Python": 3342753,
-    "JavaScript": 628551,
+    "Python": 3345511,
+    "JavaScript": 628433,
     "HTML": 60924,
     "Vue": 54436,
     "SCSS": 7230,
     "CSS": 6140
   },
-  "updated_at": "2026-11-23T10:35:31.681Z"
+  "updated_at": "2026-11-24T12:19:16.839Z"
 }
