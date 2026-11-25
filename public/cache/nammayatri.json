@@ -11,7 +11,7 @@
       "login": "hkmangla",
       "avatar_url": "https://avatars.githubusercontent.com/u/15854798?v=4",
       "html_url": "https://github.com/hkmangla",
-      "contributions": 740
+      "contributions": 741
     },
     {
       "login": "witcher-shailesh",
@@ -72,22 +72,22 @@
   "stats": {
     "forks": 409,
     "watchers": 16,
-    "open_issues": 1423,
-    "size": 938368,
+    "open_issues": 1422,
+    "size": 941009,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-11-19T12:20:40Z",
-    "pushed_at": "2026-11-24T12:16:02Z",
+    "updated_at": "2026-11-24T14:27:22Z",
+    "pushed_at": "2026-11-25T11:05:19Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 27961298,
-    "Python": 1144929,
-    "TypeScript": 665672,
-    "Dhall": 285599,
-    "Shell": 216754,
-    "Nix": 212584,
+    "Haskell": 28088975,
+    "Python": 1151849,
+    "TypeScript": 665662,
+    "Dhall": 285706,
+    "Shell": 219320,
+    "Nix": 214034,
     "CSS": 148467,
     "HTML": 143463,
     "PLpgSQL": 95255,
@@ -95,5 +95,5 @@
     "Dockerfile": 3061,
     "Go Template": 185
   },
-  "updated_at": "2026-11-24T12:20:13.238Z"
+  "updated_at": "2026-11-25T11:05:48.912Z"
 }
