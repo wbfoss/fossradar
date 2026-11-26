@@ -5,7 +5,7 @@
       "login": "khuzema786",
       "avatar_url": "https://avatars.githubusercontent.com/u/38260510?v=4",
       "html_url": "https://github.com/khuzema786",
-      "contributions": 806
+      "contributions": 808
     },
     {
       "login": "hkmangla",
@@ -17,7 +17,7 @@
       "login": "witcher-shailesh",
       "avatar_url": "https://avatars.githubusercontent.com/u/62455315?v=4",
       "html_url": "https://github.com/witcher-shailesh",
-      "contributions": 473
+      "contributions": 474
     },
     {
       "login": "0utkarsh",
@@ -70,23 +70,23 @@
     "docs_url": "https://github.com/nammayatri/nammayatri/tree/main/docs"
   },
   "stats": {
-    "forks": 409,
+    "forks": 407,
     "watchers": 16,
-    "open_issues": 1422,
-    "size": 941009,
+    "open_issues": 1421,
+    "size": 942142,
     "created_at": "2023-02-14T09:56:25Z",
-    "updated_at": "2026-11-24T14:27:22Z",
-    "pushed_at": "2026-11-25T11:05:19Z",
+    "updated_at": "2026-11-25T23:23:13Z",
+    "pushed_at": "2026-11-26T10:41:08Z",
     "has_wiki": true,
     "has_pages": false,
     "has_discussions": true
   },
   "languages": {
-    "Haskell": 28088975,
-    "Python": 1151849,
+    "Haskell": 28155039,
+    "Python": 1152051,
     "TypeScript": 665662,
-    "Dhall": 285706,
-    "Shell": 219320,
+    "Dhall": 285829,
+    "Shell": 221904,
     "Nix": 214034,
     "CSS": 148467,
     "HTML": 143463,
@@ -95,5 +95,5 @@
     "Dockerfile": 3061,
     "Go Template": 185
   },
-  "updated_at": "2026-11-25T11:05:48.912Z"
+  "updated_at": "2026-11-26T10:43:32.121Z"
 }
